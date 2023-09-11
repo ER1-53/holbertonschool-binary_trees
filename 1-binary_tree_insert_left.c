@@ -12,24 +12,18 @@
  * - Otherwise, it returns a pointer to the newest created node.
  */
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value) {
-    if (parent == NULL) {
-        return NULL;
-    }
+	binary_tree_t *new_node = binary_tree_node(parent, value);
 
-    binary_tree_t *new_node = binary_tree_node(parent, value);
+	if (parent == NULL) {
+		return (NULL);
+	}
 
-    if (new_node == NULL) {
-        return NULL;
-    }
+	if (new_node->parent->left) {
+		new_node->left = new_node->parent->left;
+		new_node->parent->left->parent = new_node;
+	}
 
-    if (parent->left != NULL) {
-        binary_tree_t *temp = parent->left;
-        parent->left = new_node;
-        new_node->left = temp;
-        temp->parent = new_node;
-    } else {
-        parent->left = new_node;
-    }
+	new_node->parent->left = new_node;
 
-    return new_node;
+	return (new_node);
 }
