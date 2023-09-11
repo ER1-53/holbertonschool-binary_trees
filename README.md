@@ -1,43 +1,50 @@
-Resources
-Read or watch:
+# C - Binary Trees
 
-Binary tree (note the first line: Not to be confused with B-tree.)
-Data Structure and Algorithms - Tree
-Tree Traversal
-Binary Search Tree
-Data structures: Binary Tree
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+## Resources
+#### Read or watch:
 
-General
-What is a binary tree
-What is the difference between a binary tree and a Binary Search Tree
-What is the possible gain in terms of time complexity compared to linked lists
-What are the depth, the height, the size of a binary tree
-What are the different traversal methods to go through a binary tree
-What is a complete, a full, a perfect, a balanced binary tree
-Requirements
-General
-Allowed editors: vi, vim, emacs
-All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
-All your files should end with a new line
-A README.md file, at the root of the folder of the project, is mandatory
-Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
-You are not allowed to use global variables
-No more than 5 functions per file
-You are allowed to use the standard library
-In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
-The prototypes of all your functions should be included in your header file called binary_trees.h
-Don’t forget to push your header file
-All your header files should be include guarded
-GitHub
+- [Binary tree (note the first line: Not to be confused with B-tree.)](https://intranet.hbtn.io/rltoken/Fh5nlgv82l1bUbWmdSNwaQ)
+- [Data Structure and Algorithms - Tree](https://intranet.hbtn.io/rltoken/fmFIIvUSROgY2lUOBy7S5A)
+- [Tree Traversal](https://intranet.hbtn.io/rltoken/eM-xhVxz4ss4clru2cyVqQ)
+- [Binary Search Tree](https://intranet.hbtn.io/rltoken/753pOe8BipA5bSJzZCrqeg)
+- [Data structures: Binary Tree](https://intranet.hbtn.io/rltoken/xTtNtmcL9Z6EmChV67Ce8A)
+
+## Learning Objectives
+At the end of this project, you are expected to be able to [explain to anyone](https://intranet.hbtn.io/rltoken/p-z8FiBY0B3y09a87_1XAA), **without the help of Google:**
+
+### General
+- What is a binary tree
+- What is the difference between a binary tree and a Binary Search Tree
+- What is the possible gain in terms of time complexity compared to linked lists
+- What are the depth, the height, the size of a binary tree
+- What are the different traversal methods to go through a binary tree
+- What is a complete, a full, a perfect, a balanced binary tree
+
+## Requirements
+### General
+- Allowed editors: vi, vim, emacs
+- All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+- All your files should end with a new line
+- A README.md file, at the root of the folder of the project, is mandatory
+- Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+- You are not allowed to use global variables
+- No more than 5 functions per file
+- You are allowed to use the standard library
+- In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
+- The prototypes of all your functions should be included in your header file called binary_trees.h
+- Don’t forget to push your header file
+- All your header files should be include guarded
+
+
+### GitHub
 There should be one project repository per group. If you clone/fork/whatever a project repository with the same name before the second deadline, you risk a 0% score.
 
-More Info
-Data structures
+## More Info
+### Data structures
+
 Please use the following data structures and types for binary trees. Don’t forget to include them in your header file.
 
-Basic Binary Tree
+**Basic Binary Tree**
 /**
  * struct binary_tree_s - Binary tree node
  *
@@ -55,21 +62,25 @@ struct binary_tree_s
 };
 
 typedef struct binary_tree_s binary_tree_t;
-Binary Search Tree
-typedef struct binary_tree_s bst_t;
-AVL Tree
-typedef struct binary_tree_s avl_t;
-Max Binary Heap
-typedef struct binary_tree_s heap_t;
-Note: For tasks 0 to 23 (included), you have to deal with simple binary trees. They are not BSTs, thus they don’t follow any kind of rule.
 
-Print function
+**Binary Search Tree**
+typedef struct binary_tree_s bst_t;
+
+**AVL Tree**
+typedef struct binary_tree_s avl_t;
+
+**Max Binary Heap**
+typedef struct binary_tree_s heap_t;
+
+*Note*: For tasks 0 to 23 (included), you have to deal with simple binary trees. They are not BSTs, thus they don’t follow any kind of rule.
+
+### Print function
 To match the examples in the tasks, you are given this function
 
 This function is used only for visualization purposes. You don’t have to push it to your repo. It may not be used during the correction
 
 ## Tasks
-**| 0. New node | *mandatory* |
+| **0. New node** | *mandatory* |
 | --------- | --------- |
 
 Write a function that creates a binary tree node
