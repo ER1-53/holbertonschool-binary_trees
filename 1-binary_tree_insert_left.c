@@ -11,7 +11,6 @@
  * - If malloc fail or parent = NULL, it returns NULL.
  * - Otherwise, it returns a pointer to the newest created node.
  */
-
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value) {
     if (parent == NULL) {
         return NULL;
