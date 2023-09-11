@@ -1,6 +1,8 @@
-# C - Binary Trees
+[![Logo](https://uploads-ssl.webflow.com/64107f65f30b69371e3d6bfa/6480d9b63a806a1b35fec007_Holberton.png)](https://www.holbertonschool.fr/?utm_source=googleads&utm_medium=cta&utm_campaign=marque&gad=1&gclid=Cj0KCQjwrMKmBhCJARIsAHuEAPR2L8kfEV4McEyqp7jnK5xo70Y-eLbuF5pkCITtfnHnuS7EXWoZzRMaAhQCEALw_wcB)
 
-## Resources
+# C - Binary Trees | 🌲
+
+## Resources | 📄
 #### Read or watch:
 
 - [Binary tree (note the first line: Not to be confused with B-tree.)](https://intranet.hbtn.io/rltoken/Fh5nlgv82l1bUbWmdSNwaQ)
@@ -9,7 +11,7 @@
 - [Binary Search Tree](https://intranet.hbtn.io/rltoken/753pOe8BipA5bSJzZCrqeg)
 - [Data structures: Binary Tree](https://intranet.hbtn.io/rltoken/xTtNtmcL9Z6EmChV67Ce8A)
 
-## Learning Objectives
+## Learning Objectives | 📖
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.hbtn.io/rltoken/p-z8FiBY0B3y09a87_1XAA), **without the help of Google:**
 
 ### General
@@ -20,7 +22,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - What are the different traversal methods to go through a binary tree
 - What is a complete, a full, a perfect, a balanced binary tree
 
-## Requirements
+## Requirements | 📃
 ### General
 - Allowed editors: vi, vim, emacs
 - All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
@@ -39,7 +41,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 ### GitHub
 There should be one project repository per group. If you clone/fork/whatever a project repository with the same name before the second deadline, you risk a 0% score.
 
-## More Info
+## More Info | 📑
 ### Data structures
 
 Please use the following data structures and types for binary trees. Don’t forget to include them in your header file.
