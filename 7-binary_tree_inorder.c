@@ -7,7 +7,8 @@
  * @func: Pointeur vers la fonction à appliquer à chaque nœud.
  */
 
-void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int)) {
+void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int))
+{
 	if (tree == NULL || func == NULL)
 		return;
 
