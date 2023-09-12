@@ -1,8 +1,8 @@
 #include "binary_trees.h"
 
 /**
-* binary-tree-delete - Supprime l'arbre avec toutes les nodes
-*  
+* binary_tree_delete - Supprime l'arbre avec toutes les nodes
+*
 * @tree: l'arbre binaire
 */
 
