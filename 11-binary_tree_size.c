@@ -1,10 +1,10 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_nodes - compte le nombre de noeud dans un arbre binaire
- * 
+ * binary_tree_size - compte le nombre de noeud dans un arbre binaire
+ *
  * @tree: l'arbre binaire
- * 
+ *
  * Return: le nombre de noeud dans l'arbre
  */
 

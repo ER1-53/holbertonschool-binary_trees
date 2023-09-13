@@ -2,9 +2,9 @@
 
 /**
  * binary_tree_is_full - verifie si un arbre binaire est complet
- * 
+ *
  * @tree: l'arbre binaire a verifier
- * 
+ *
  * Return: 1 si l'arbre est complet sinon 0.
 */
 

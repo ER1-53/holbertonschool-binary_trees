@@ -2,9 +2,9 @@
 
 /**
  * binary_tree_nodes - compte le nombre de noeud dans l'arbre binaire
- * 
+ *
  * @tree: l'arbre binaire à analyser
- * 
+ *
  * Return: le nombre de noeud dans l'arbre
  */
 
