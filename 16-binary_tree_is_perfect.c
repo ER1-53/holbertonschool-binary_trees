@@ -76,6 +76,8 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 		return (0);
 	/*leaf = binary_tree_is_leaf(tree);*/
 	/*printf("numero de node %d, valeur de leaf %d\n", tree->n ,leaf);*/
+	if (binary_tree_is_leaf(tree))
+		return (1);
 
 	tree_right = binary_tree_height(tree->left);
 	tree_left = binary_tree_height(tree->right);
@@ -84,10 +86,10 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 	binary_tree_is_perfect(tree->right);
 
 
-	if (binary_tree_is_leaf(tree->left) == binary_tree_is_leaf(tree->right))
-	{
-		if (tree_left == tree_right)
-			return (1);
-	}
-	return (0);
+	 /*== binary_tree_is_leaf(tree->right)*/
+
+	if (tree_left != tree_right)
+		return (0);
+
+	return (1);
 }
