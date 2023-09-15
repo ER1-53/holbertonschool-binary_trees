@@ -1,20 +1,21 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_postorder - Parcours postordonné d'un arbre binaire.
+ * binary_tree_depth - Measures the depth of a node in a binary tree.
  *
- * @tree: Pointeur vers la racine de l'arbre à parcourir.
- * @func: Pointeur vers la fonction à appliquer à chaque nœud.
+ * @tree: Pointer to the node to measure the depth.
+ *
+ * Return:
+ * - Depth of the node.
+ * - If tree is NULL, return 0.
  */
 
 size_t binary_tree_depth(const binary_tree_t *tree)
 {
-	int count = 0;
-	if (!tree)
+	if (tree == NULL)
+		return (0);
+	if (tree->parent == NULL)
 		return (0);
 
-	if (binary_tree_depth(tree->left) || binary_tree_depth(tree->right))
-
-	return (count);
-
+	return (1 + binary_tree_depth(tree->parent));
 }
