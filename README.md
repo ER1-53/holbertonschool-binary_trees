@@ -241,6 +241,7 @@ File: 2-binary_tree_insert_right.c
   
 0/7 pts
 3. Delete
+| ----- | ----- |
 mandatory
 Write a function that deletes an entire binary tree
 
